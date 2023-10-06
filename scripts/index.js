@@ -1,6 +1,6 @@
 /**
  * Autor: Adrian Iglesias Riño
- * github.com/Torremolinos
+ * github.com/https://github.com/Torremolinos/Form-Dwec-Dwic
  */
 //que el campo no deba estar vacio (para le nombre)
 //que la contraseña al menos sea 8 caracteres.
