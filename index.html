@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Accesible</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <h1>FORMULARIO ACCESIBLE</h1>   
+    <form  id="registerForm" action="" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required tabindex="1"></input>
+        <label for="surname">Apellidos:</label>
+        <input type="text" id="surname" name="surname" required  tabindex="2"></input>
+        <label for="email">Email:</label>
+        <input type="email" required tabindex="3"></input>
+        <label for="password">Contraseña:</label>
+        <input type="password" required tabindex="4"></input>
+    </br>
+        <button type="submit" class="button">Registrarse</button>
+    </form>
+ <script src="/scripts/index.js"></script>
+</body>
+</html>
